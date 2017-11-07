@@ -34,7 +34,7 @@ input = [10, 10, 10, 20, 20, 11, 21, 11, 20,
 So, it can take dataframe or list or string as an input for data
 compression
 
-rle = RLE(data_for_rle=input) or RLE(input)
+rle = Compressor(data_for_rle=input) or RLE(input)
 rle.solve(otype=params) or rle.solve(params)
 
 # For output you can check the attributes of RLE.solve method
@@ -58,7 +58,7 @@ rle.end_index will return ~
 """
 
 
-class RLE(object):
+class Compressor(object):
 
     def __init__(self, data_for_rle="No Data"):
         self.data_for_rle = data_for_rle
@@ -119,7 +119,7 @@ class RLE(object):
 #     # [1,1,1,0,0,1,0,1,0,1,0,0] #df["ign_status"]
 #     input_list = "aabbbaababacccddbbddaa"
 #     #input_list = [0,1,2,3,4,5,6,7,8,9,10,11]
-#     rle = RLE(data_for_rle=df["data"])
+#     rle = Compressor(data_for_rle=df["data"])
 #     #print (rle.encoder())
 #     rle.solve("both")
 #     print(rle.start_index)

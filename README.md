@@ -13,21 +13,19 @@ the correct indices required to compress
 Example:
 --------
 
-input = pd.DataFrame([10, 10, 10, 20, 20, 11, 21, 11, 20,
-                       20, 10, 10], columns=["data"])
+input = pd.DataFrame([10, 10, 10, 20, 20, 11, 21, 11, 20, 20, 10, 10], columns=["data"])
 or
 
 input = "aabbbaababacccddbbddaa"
 
 or
 
-input = [10, 10, 10, 20, 20, 11, 21, 11, 20,
-                       20, 10, 10]
+input = [10, 10, 10, 20, 20, 11, 21, 11, 20, 20, 10, 10]
 
 So, it can take dataframe or list or string as an input for data
 compression
 
-rle = RLE(data_for_rle=input) or RLE(input)
+rle = Compressor(data_for_rle=input) or RLE(input)
 rle.solve(otype=params) or rle.solve(params)
 
 # For output you can check the attributes of RLE.solve method

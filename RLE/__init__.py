@@ -1,2 +1,2 @@
 #! usr/bin/env python
-from _RLE import RLE
+from RLE import Compressor
