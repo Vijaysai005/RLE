@@ -1,11 +1,7 @@
-# RLE
-RLE-RunLengthEncoding
+# RLE-RunLengthEncoding
+run "python setup.py install"
 
-#run "python setup.py install"
-
-"""
-RLE-RunLengthEncoding is a framework in python
-using pandas and groupby
+# RLE-RunLengthEncoding is a framework in python using pandas and groupby
 
 It is majorly used to compress the data by finding 
 the correct indices required to compress
@@ -46,4 +42,3 @@ rle.start_index will return ~
 rle.end_index will return ~
 [2, 4, 5, 6, 7, 9, 11]
 
-"""
