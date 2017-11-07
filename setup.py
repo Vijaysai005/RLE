@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name="RLE",
     packages=["RLE"],
-    version=1.0,
+    version=1.1,
     description="RLE - RunLengthEncoding package for data compression",
     author="Vijayasai",
     author_email="vijay.sai005@gmail.com",
