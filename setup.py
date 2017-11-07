@@ -8,7 +8,7 @@ setup(
     author="Vijayasai",
     author_email="vijay.sai005@gmail.com",
     url="https://github.com/Vijaysai005/RLE",
-    download_url="https://github.com/Vijaysai005/RLE/archive/v1.0.tar.gz",
+    download_url="https://github.com/Vijaysai005/RLE/archive/v1.1.tar.gz",
     keywords=["RLE", "RunLengthEncoding", "data compression"],
     classifiers=[],
 )
