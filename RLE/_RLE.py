@@ -11,7 +11,7 @@ from itertools import groupby
 import pandas as pd
 
 """
-RLE-RunLengthEncoding Framework in python
+RLE-RunLengthEncoding is a framework in python
 using pandas and groupby
 
 It is majorly used to compress the data by finding 
