@@ -1,7 +1,7 @@
 # RLE
 RLE-RunLengthEncoding
 
-run "python setup.py install"
+#run "python setup.py install"
 
 """
 RLE-RunLengthEncoding is a framework in python
